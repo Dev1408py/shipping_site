@@ -1,0 +1,166 @@
+.tracking-container {
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(234, 248, 241);
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    transition: color 0.3s;
+  }
+  
+  .tab.active {
+    color: #000;
+    border-bottom: 2px solid #ffcc00;
+  }
+  
+  .tab:not(.active) {
+    color: #888;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    margin-top: 20px;
+  }
+  
+  .search-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .schedules-form .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .schedules-form .input-group label {
+    flex: 1;
+  }
+  
+  .schedules-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .schedules-form .search-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .schedules-form .search-button:hover {
+    background-color: #e6b800;
+  }
+  
+  .contacts-form .search-input {
+    margin-top: 20px;
+  }
+  
+  .contacts-form .search-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .role-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.role-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.role-button.active {
+  background-color: #007bff;
+  color: white;
+}
+/*  */
+
+
+
+
+.role-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .role-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .role-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+/*  */
+.tracking-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tracking-page h1 {
+    margin-bottom: 20px;
+  }
